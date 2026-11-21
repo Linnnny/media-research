@@ -1,0 +1,22 @@
+# 运行产物
+out/
+*.mp4
+*.webm
+*.m3u8
+*.png
+*.jpg
+!assets/**/*.png
+!assets/**/*.jpg
+
+# 浏览器 profile 与缓存（绝不要提交：里面有你的登录态）
+edge-profile/
+.tmp/
+*.log
+
+# 依赖
+node_modules/
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
